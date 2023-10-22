@@ -1,0 +1,14 @@
+import { useRouter } from "next/router";
+
+const PortfolioPageId = () => {
+  const router = useRouter();
+  console.log(router.pathname);
+  console.log(router.query.projectId);
+  return (
+    <div>
+      <h1>The Portfolio Page ID</h1>
+    </div>
+  );
+};
+
+export default PortfolioPageId;
