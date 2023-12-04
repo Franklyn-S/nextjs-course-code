@@ -1,6 +1,6 @@
 import Link from "next/link";
 import classes from "./event-item.module.css";
-import Button from "./ui/button";
+import Button from "../ui/button";
 
 function EventItem({ title, image, date, location, id }) {
   const humanReadableDate = new Date(date).toLocaleDateString("pt-BR", {
