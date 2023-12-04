@@ -1,3 +1,6 @@
 {
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "osfdigital.wingman.workspaceIndexingSettings": {
+    "indexingState": 0
+  }
 }
