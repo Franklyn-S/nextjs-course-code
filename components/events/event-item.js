@@ -25,7 +25,7 @@ function EventItem({ title, image, date, location, id }) {
           </div>
         </div>
         <div className={classes.actions}>
-          <Button href={exploreLnk}>Explore Event</Button>
+          <Button link={exploreLnk}>Explore Event</Button>
         </div>
       </div>
     </li>
