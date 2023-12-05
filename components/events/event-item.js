@@ -29,7 +29,7 @@ function EventItem({ title, image, date, location, id }) {
           </div>
         </div>
         <div className={classes.actions}>
-          <Button href={exploreLnk}>
+          <Button link={exploreLnk}>
             <span>Explore Event</span>
             <span className={classes.icon}>
               <ArrowRightIcon />
