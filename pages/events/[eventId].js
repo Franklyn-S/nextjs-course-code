@@ -12,9 +12,12 @@ function EventDetailPage() {
   const event = getEventById(query.eventId); // this is a dummy function
 
   if (!event) {
-    return <p>No event found!</p>;
+    return (
+      <ErrorAlert>
+        <p>No event found!</p>
+      </ErrorAlert>
+    );
   }
-  console.log(event);
   return (
     <Fragment>
       <EventSummary title={event.title} />

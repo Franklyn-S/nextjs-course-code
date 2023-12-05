@@ -10,11 +10,7 @@ function Button(props) {
     );
   }
   return (
-    <button
-      className={props.className || classes.btn}
-      onClick={props.onClick}
-      type={props.type || "button"}
-    >
+    <button className={props.className || classes.btn} onClick={props.onClick}>
       {props.children}
     </button>
   );
