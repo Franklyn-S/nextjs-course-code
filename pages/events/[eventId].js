@@ -16,7 +16,7 @@ function EventDetailPage() {
       <ErrorAlert>
         <p>No event found!</p>
       </ErrorAlert>
-    );
+    )f;
   }
   return (
     <Fragment>
